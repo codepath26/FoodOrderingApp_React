@@ -8,8 +8,11 @@ import CartContext from '../../Store/cart-context';
  const {items} = cartCtx;
 //  const numberOfCartItems = cartCtx.items.length;
  const numberOfCartItems = items.reduce((curNumber , item)=>{
+        // console.log(curNumber)
+        // console.log("items",item)
         return curNumber + item.amount;
  } ,0);
+//  console.log("numberofitems" , numberOfCartItems)
 
  const btnClasses = `${classes.button} ${ btnIsHighlighted ? classes.bump : ""}`
  useEffect(()=>{
