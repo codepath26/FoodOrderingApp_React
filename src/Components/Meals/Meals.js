@@ -1,11 +1,11 @@
 import AvailableMeals from "./AvailableMeals"
 import MealsSummary from "./MealsSummary"
 
-export default function Meals() {
+export default function Meals(props) {
   return (
     <>
    <MealsSummary/>      
-   <AvailableMeals/>      
+   <AvailableMeals limit={props.itemLimit}/>      
     </>
   )
 }

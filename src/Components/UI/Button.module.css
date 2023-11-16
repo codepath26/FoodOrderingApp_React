@@ -1,0 +1,16 @@
+
+.btnlist{
+  border: 1px solid rebeccapurple;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  padding: -4px;
+  font-size: 1.3rem;
+  margin: 10px 5px;
+  border: 1px solid #a46e6e;
+  border-radius: 50%;
+
+  
+  }
