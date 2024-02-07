@@ -25,7 +25,7 @@
   width: 110%;
   height: 100vh;
   object-fit: cover;
-  border: 1px solid red;
+/*   border: 1px solid red; */
   /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
 }
 .notification {
